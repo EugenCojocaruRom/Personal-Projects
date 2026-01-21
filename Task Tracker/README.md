@@ -1,22 +1,18 @@
 # \# Task Tracker
 
-# A simple Java console application that demonstrates the usage of core Java Collections (`Map`, `List`,
+# A simple Java console application that demonstrates the usage of core Java Collections (`Map`, `List`, `Set`) by managing tasks with priorities and completion status.
 
-# `Set`) by managing tasks with priorities and completion status.
-
-# This project is intended for \*\*learning purposes\*\* and as a \*\*portfolio project for junior Java
-
-# developers\*\*.
+# This project is intended for \*\*learning purposes\*\* and as a \*\*portfolio project for junior Java developers\*\*.
 
 # ---
 
 # \## Features
 
-# \- \[x] Add a task with unique ID
+# \- \[ x ] Add a task with unique ID
 
-# \- \[x] Prevent duplicate task titles using `Set`
+# \- \[ x ] Prevent duplicate task titles using `Set`
 
-# \- \[x] Store tasks using `Map`
+# \- \[ x ] Store tasks using `Map`
 
 # \- \[x] Mark task as completed
 
