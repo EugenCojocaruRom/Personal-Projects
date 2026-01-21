@@ -8,7 +8,7 @@
 
 # \## Features
 
-# \- \[ x ] Add a task with unique ID
+# -\[x] Add a task with unique ID
 
 # \- \[ x ] Prevent duplicate task titles using `Set`
 
