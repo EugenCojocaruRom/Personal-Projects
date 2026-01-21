@@ -8,19 +8,19 @@
 
 # \## Features
 
-# -\[x] Add a task with unique ID
+# \- \[ ] Add a task with unique ID
 
-# \- \[ x ] Prevent duplicate task titles using `Set`
+# \- \[ ] Prevent duplicate task titles using `Set`
 
-# \- \[ x ] Store tasks using `Map`
+# \- \[ ] Store tasks using `Map`
 
-# \- \[x] Mark task as completed
+# \- \[ ] Mark task as completed
 
-# \- \[x] Display all tasks
+# \- \[ ] Display all tasks
 
-# \- \[x] Display incomplete tasks
+# \- \[ ] Display incomplete tasks
 
-# \- \[x] Display HIGH priority tasks
+# \- \[ ] Display HIGH priority tasks
 
 # \- \[ ] Delete a task (optional)
 
@@ -44,11 +44,11 @@
 
 # \## Collections Used
 
-# \- \[x] `HashMap<Integer, Task>` – fast access by task ID
+# \- \[ ] `HashMap<Integer, Task>` – fast access by task ID
 
-# \- \[x] `HashSet<String>` – ensures unique task titles
+# \- \[ ] `HashSet<String>` – ensures unique task titles
 
-# \- \[x] `ArrayList<Task>` – used for listing and filtering tasks
+# \- \[ ] `ArrayList<Task>` – used for listing and filtering tasks
 
 # \*\*Why these collections?\*\*
 
