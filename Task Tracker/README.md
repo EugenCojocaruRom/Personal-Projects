@@ -3,14 +3,14 @@ A simple Java console application that demonstrates the usage of core Java Colle
 This project is intended for **learning purposes** and as a **portfolio project for junior Java developers**.
 ---
 ## Features
-- [ ] Add a task with unique ID
-- [ ] Prevent duplicate task titles using Set
-- [ ] Store tasks using Map
-- [ ] Mark task as completed
-- [ ] Display all tasks
-- [ ] Display incomplete tasks
-- [ ] Display HIGH priority tasks
-- [ ] Delete a task (optional)
+- [x] Add a task with unique ID
+- [x] Prevent duplicate task titles using Set
+- [x] Store tasks using Map
+- [x] Mark task as completed
+- [x] Display all tasks
+- [x] Display incomplete tasks
+- [x] Display HIGH priority tasks
+- [x] Delete a task (optional)
 - [ ] Sort tasks by priority (optional)
 ---
 ## Data Model
@@ -21,8 +21,8 @@ This project is intended for **learning purposes** and as a **portfolio project 
 - completed – boolean flag
 ---
 ## Collections Used
-- [ ] HashMap<Integer, Task> – fast access by task ID
-- [ ] HashSet<String> – ensures unique task titles
+- [x] HashMap<Integer, Task> – fast access by task ID
+- [x] HashSet<String> – ensures unique task titles
 - [ ] ArrayList<Task> – used for listing and filtering tasks
 **Why these collections?**
 - Map provides O(1) access by ID

@@ -9,7 +9,7 @@ public class Task {
     private boolean completed;
 
     //Add constructor to initialize the variables (and be able to access them from Main)
-    public Task(int id, String title, Priority priority) {
+    public Task(int id, String title, Priority priority, boolean completed) {
         this.id = id;
         this.title = title;
         this.priority = priority;
@@ -35,19 +35,31 @@ public class Task {
     }
 
     //Setters
-    public void setId(int id) {
-        this.id = id;
-    }
-
-    public void setTitle(String title) {
-        this.title = title;
-    }
-
-    public void setPriority(Priority priority) {
-        this.priority = priority;
-    }
-
+//    public void setId(int id) {
+//        this.id = id;
+//    }
+//
+//    public void setTitle(String title) {
+//        this.title = title;
+//    }
+//
+//    public void setPriority(Priority priority) {
+//        this.priority = priority;
+//    }
+//
     public void setCompleted(boolean completed) {
         this.completed = completed;
+    }
+
+    @Override
+    public String toString() {
+        String status;
+        if (completed) {
+            status = "COMPLETED";
+        }
+        else {
+            status = "NOT COMPLETED";
+        }
+        return "Task #" + id + " - " + title + " - " + priority + " - " + status;
     }
 }
