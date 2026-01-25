@@ -34,23 +34,12 @@ public class Task {
         return completed;
     }
 
-    //Setters
-//    public void setId(int id) {
-//        this.id = id;
-//    }
-//
-//    public void setTitle(String title) {
-//        this.title = title;
-//    }
-//
-//    public void setPriority(Priority priority) {
-//        this.priority = priority;
-//    }
-//
+    //Setter for task status
     public void setCompleted(boolean completed) {
         this.completed = completed;
     }
 
+    //Overriding the status, for filtering purposes
     @Override
     public String toString() {
         String status;

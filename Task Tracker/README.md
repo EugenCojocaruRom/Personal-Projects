@@ -11,7 +11,7 @@ This project is intended for **learning purposes** and as a **portfolio project 
 - [x] Display incomplete tasks
 - [x] Display HIGH priority tasks
 - [x] Delete a task (optional)
-- [ ] Sort tasks by priority (optional)
+- [x] Sort tasks by priority (optional)
 ---
 ## Data Model
 ### Task
@@ -23,7 +23,8 @@ This project is intended for **learning purposes** and as a **portfolio project 
 ## Collections Used
 - [x] HashMap<Integer, Task> – fast access by task ID
 - [x] HashSet<String> – ensures unique task titles
-- [ ] ArrayList<Task> – used for listing and filtering tasks
+- [x] ArrayList<Task> – used for listing and filtering tasks
+---
 **Why these collections?**
 - Map provides O(1) access by ID
 - Set prevents duplicates efficiently
