@@ -1,3 +1,4 @@
+import javax.swing.*;
 import java.util.*;
 
 public class Main {
@@ -354,25 +355,25 @@ public class Main {
         }
         //Display label
         System.out.println("=== Number of completed vs not completed tasks ===");
-        //Declare variable of type int and initialize it -> counter for completed tasks
-        int countCompleted = 0;
-        //Declare variable of type int and initialize it -> counter for not completed tasks
-        int countIncomplete = 0;
+        //Declare list of integers and initialize it -> counter for completed tasks
+        List<Integer> completedTasks = new ArrayList<>();
+        //Declare list of integers and initialize it -> counter for not completed tasks
+        List<Integer> incompleteTasks = new ArrayList<>();
         //Loop through the task list
         for (Task task : displayTask) {
             //Check if the task is completed
             if (task.isCompleted()) {
-                //Increment the counter for each completed task found
-                countCompleted++;
+                //Add to the list the ID of each completed task found
+                completedTasks.add(task.getId());
             }
             else  {
-                //Increment the counter for each not completed task found
-                countIncomplete++;
+                //Add to the list the ID of each not completed task found
+                incompleteTasks.add(task.getId());
             }
         }
-        //Display the number of completed and not completed tasks
-        System.out.println(countCompleted + " tasks have been completed.");
-        System.out.println(countIncomplete + " tasks are not yet completed.");
+        //Display the number and IDs of completed and not completed tasks
+        System.out.println(completedTasks.size() + " tasks have been completed. IDs: " + completedTasks);
+        System.out.println(incompleteTasks.size() + " tasks are not yet completed. IDs: " + incompleteTasks);
     }
 
     //-------------------------------------------
